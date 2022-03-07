@@ -1712,8 +1712,8 @@ __metadata:
   resolution: "@gatsby-plugin-typegen/monorepo@workspace:."
   dependencies:
     "@cometjs/eslint-plugin": ^1.1.0
-    "@types/jest": ^26.0.23
-    "@types/node": ^15.0.2
+    "@types/jest": ^27.4.1
+    "@types/node": ^17.0.21
     "@typescript-eslint/eslint-plugin": ^4.23.0
     "@typescript-eslint/parser": ^4.23.0
     all-contributors-cli: ^6.20.0
@@ -1721,7 +1721,7 @@ __metadata:
     eslint-plugin-jsx-a11y: ^6.4.1
     eslint-plugin-react: ^7.23.2
     eslint-plugin-react-hooks: ^4.2.0
-    typescript: ^4.2.4
+    typescript: ^4.6.2
     ultra-runner: ^3.10.5
   languageName: unknown
   linkType: soft
@@ -3477,7 +3477,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:*":
+"@types/jest@npm:*, @types/jest@npm:^27.4.1":
   version: 27.4.1
   resolution: "@types/jest@npm:27.4.1"
   dependencies:
@@ -3576,7 +3576,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*":
+"@types/node@npm:*, @types/node@npm:^17.0.21":
   version: 17.0.23
   resolution: "@types/node@npm:17.0.23"
   checksum: a3517554737cbb042e76c30d0e5482192ac4d9bea0eeb086e2622d9cabf460a0eb52a696b99fcd18e7fcc93c96db6cc7ae507f6608f256ef0b5c1d8c87a5a470
@@ -17449,7 +17449,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^4.2.4":
+"typescript@npm:^4.2.4, typescript@npm:^4.6.2":
   version: 4.6.2
   resolution: "typescript@npm:4.6.2"
   bin:
@@ -17459,7 +17459,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.2.4#~builtin<compat/typescript>":
+"typescript@patch:typescript@^4.2.4#~builtin<compat/typescript>, typescript@patch:typescript@^4.6.2#~builtin<compat/typescript>":
   version: 4.6.2
   resolution: "typescript@patch:typescript@npm%3A4.6.2#~builtin<compat/typescript>::version=4.6.2&hash=bda367"
   bin:
