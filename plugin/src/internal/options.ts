@@ -32,6 +32,8 @@ export type PluginOptions = {
   outputPath?: string,
 
   /**
+   * @deprecated The plugin does not generate useful types for the interface of GatsbyJS schema builder. This will removed from v4.
+   *
    * If you use [schema customization](https://www.gatsbyjs.org/docs/schema-customization/),
    * you might want types for custom resolvers.
    *
@@ -126,7 +128,7 @@ export type SchemaOutputOptions = {
    * By default, the introspeciton result will be emitted as JSON
    * If set `sdl`, the AST will be parsed and printed, aka GraphQL SDL.
    *
-   * @default 'graphql'
+   * @default 'sdl'
    */
   format: 'introspection' | 'sdl',
 
@@ -143,14 +145,4 @@ export type SchemaOutputOptions = {
    * @default true
    */
   omitPluginMetadata?: boolean,
-};
-
-/**
- * Type definition for https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby/src/schema/context.js
- *
- * @todo Provide correct type definition.
- */
-export type GatsbyResolverContext = {
-  defaultFieldResolvers: any,
-  nodeModel: any,
 };
